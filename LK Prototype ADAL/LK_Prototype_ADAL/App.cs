@@ -1,19 +1,19 @@
-﻿using System;
+﻿using LK_Prototype_ADAL.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace LK_Prototype_ADAL
 {
-    public partial class App : Application
+    public class App : Application
     {
         public App()
         {
-            InitializeComponent();
-
-            MainPage = new LK_Prototype_ADAL.MainPage();
+            // The root page of your application
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()

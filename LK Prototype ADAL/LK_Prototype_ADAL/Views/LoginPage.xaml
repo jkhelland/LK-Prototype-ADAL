@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LK_Prototype_ADAL"
+             x:Class="LK_Prototype_ADAL.Views.LoginPage"
+             BackgroundColor="White">
+  <StackLayout Spacing="20" Padding="20" VerticalOptions="Center" BackgroundColor="White">
+    <Image Source="icon.png" Aspect="AspectFit" WidthRequest = "75" HeightRequest = "75" />
+    <Image Source="LKTxT.png" Aspect="AspectFit" />
+    <Button x:Name="btnSignIn" Text="Sign in" Clicked="btnSignIn_OnClicked" 
+            VerticalOptions="End" 
+            HorizontalOptions="FillAndExpand" 
+            TextColor="White"
+            BackgroundColor="#E32021"/>
+  </StackLayout>
+</ContentPage>

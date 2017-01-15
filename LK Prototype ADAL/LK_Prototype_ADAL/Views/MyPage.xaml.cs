@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
-namespace LK_Prototype_ADAL
+namespace LK_Prototype_ADAL.Views
 {
-    public partial class MainPage : ContentPage
+    public partial class MyPage : ContentPage
     {
-        public MainPage()
+        public MyPage()
         {
             InitializeComponent();
         }
